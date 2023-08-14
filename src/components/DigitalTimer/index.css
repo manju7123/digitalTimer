@@ -1,0 +1,156 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  padding: 40px;
+}
+.heading {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+.image-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 65%;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-inner-card {
+  background-color: #ffffff;
+  color: #00d9f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  border-radius: 250px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.time {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.time-status {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.settings-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+}
+.settings-inner-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.start-or-pause-btn {
+  background-color: transparent;
+  border: none;
+  margin-right: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.start-or-pause-image {
+  width: 35px;
+}
+.start-or-pause {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  margin-right: 20px;
+}
+.reset-btn {
+  background-color: transparent;
+  border: none;
+  margin-right: 6px;
+  cursor: pointer;
+  outline: none;
+}
+.reset-image {
+  width: 35px;
+}
+.reset {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #1e293b;
+  text-align: center;
+}
+.time-set-up-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.time-in-minutes {
+  background-color: #00d9f5;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  margin: 30px;
+}
+.increment-btn {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.decrement-btn {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #0f172a;
+  background-color: transparent;
+  border: none;
+  width: 30px;
+  cursor: pointer;
+  outline: none;
+}
